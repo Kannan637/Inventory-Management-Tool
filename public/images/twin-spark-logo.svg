@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- Shield background -->
+  <path d="M150,10 L275,80 L250,230 L150,290 L50,230 L25,80 Z" fill="black" />
+  
+  <!-- Red border -->
+  <path d="M150,20 L265,85 L242,220 L150,275 L58,220 L35,85 Z" fill="none" stroke="#FF3333" stroke-width="10" />
+  
+  <!-- Eagle silhouette -->
+  <path d="M150,140 C160,120 180,110 200,115 C220,120 230,140 225,160 C220,180 200,190 180,185 C170,183 165,175 160,170 L150,180 L140,170 C135,175 130,183 120,185 C100,190 80,180 75,160 C70,140 80,120 100,115 C120,110 140,120 150,140 Z" fill="white" />
+  
+  <!-- Text "TWIN" -->
+  <text x="150" y="120" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#FF3333" text-anchor="middle">TWIN</text>
+  
+  <!-- Text "SPARK" -->
+  <text x="150" y="160" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">SPARK</text>
+  
+  <!-- Stars -->
+  <circle cx="130" cy="80" r="8" fill="#FFCC33" />
+  <circle cx="150" cy="80" r="8" fill="#FFCC33" />
+  <circle cx="170" cy="80" r="8" fill="#FFCC33" />
+</svg>

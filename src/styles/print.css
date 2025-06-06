@@ -1,0 +1,54 @@
+@media print {
+  /* Hide everything except the printable invoice */
+  body * {
+    visibility: hidden;
+  }
+  
+  #printable-invoice,
+  #printable-invoice * {
+    visibility: visible;
+  }
+  
+  #printable-invoice {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* A4 paper size settings */
+  @page {
+    size: A4 portrait;
+    margin: 0.5cm;
+  }
+  
+  /* Hide print button when printing */
+  .print\:hidden {
+    display: none !important;
+  }
+  
+  /* Ensure page breaks don't happen in the middle of important sections */
+  #printable-invoice {
+    page-break-inside: avoid;
+  }
+  
+  /* Ensure tables don't break across pages */
+  table {
+    page-break-inside: avoid;
+  }
+  
+  /* Ensure proper font sizes for print */
+  #printable-invoice {
+    font-size: 12pt;
+  }
+  
+  #printable-invoice h1 {
+    font-size: 18pt;
+  }
+  
+  #printable-invoice h2 {
+    font-size: 16pt;
+  }
+}
